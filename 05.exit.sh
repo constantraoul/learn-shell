@@ -25,3 +25,6 @@ echo Hello2
 
 # We can check this information using a variable which is ?, Meaning $? can show Exit Status or exit command
 # return and exit command by default return value zero, However we can pass the values from 0-255 to those commands and that value will be returned.
+
+# Any value between 0-255 can be used by scripting person, however values from 125+ (126-255) are being used by system.
+# so we usually don't use those values as author script and we are free to use from 0-125
