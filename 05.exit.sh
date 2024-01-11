@@ -8,7 +8,6 @@ sample2() {
  echo Exit status of function is - $?
 
 
-
 echo Hello1
 exit 200
 echo Hello2
