@@ -1,11 +1,11 @@
 sample2() {
   echo Hello1
-  return
+  return 100
   echo Hello2
-  }
+ }
 
-  sample2
-  echo Exit status of function is - $?
+ sample2
+ echo Exit status of function is - $?
 
 
 
