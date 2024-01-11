@@ -1,4 +1,4 @@
-sasmple1() {
+sample1() {
   echo "Hello World"
 }
 
