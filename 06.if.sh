@@ -43,7 +43,7 @@
 
 # Operators: [ -a /tmp/abc ]
 
-if [ -z "$1"]; then
+if [ -z "$1" ]; then
   echo Input is empty
   exit 1
 fi
