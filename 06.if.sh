@@ -38,6 +38,9 @@
 
 # 3. File Checks
 
+if [ -z "$1"]; then
+  echo Input is empty
+fi
 
 input=$1
 if [ "$input" = devops ]; then
