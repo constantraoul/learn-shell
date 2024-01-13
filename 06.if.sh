@@ -36,8 +36,12 @@
 
 # 2.Number Checks
 
+# Operators: -eq, -ne, -gt, -ge, -le, lt
+
 
 # 3. File Checks
+
+# Operators: [ -a /tmp/abc ]
 
 if [ -z "$1"]; then
   echo Input is empty
