@@ -25,3 +25,22 @@ for course in DevOps Azure GCP Testing; do
   echo Welcome to Course - ${course}
 done
 
+# There are two loop control command
+ # break - When we wnt to stop a loop and come out of the loop we use break
+ # continue - Skipping the remaining commands in loop (command1 ; command2 ; continue ; command3 ; command4) and start the next iteration
+
+i=10
+while [ "$i" -gt 0 ]; do
+  echo Hello World
+  i=$(($i-1))
+ break
+ echo Hello Universe
+done
+
+i=10
+while [ "$i" -gt 0 ]; do
+  echo Hello World
+  i=$(($i-1))
+continue
+ echo Hello Universe
+done
