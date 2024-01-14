@@ -9,4 +9,7 @@ AWS)
 DevOps)
   echo Welcome to DevOps Training
   ;;
+*)
+  echo Unknown Training
+  ;;
 esac
