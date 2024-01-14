@@ -30,7 +30,7 @@
   #    -z     -> check if variable is empty
 
   # Ex:  [ a = x ], [ a != x ], [ $x == abc ], [ -z "$var" }
-  ## Note: If any where in expressions if you see a variable, always ensure you give double quotes ("").
+  ## Note: If any where in an expressions you see a variable, always ensure you double quote ("").
 
 
 
