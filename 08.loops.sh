@@ -29,6 +29,7 @@ done
  # break - When we wnt to stop a loop and come out of the loop we use break
  # continue - Skipping the remaining commands in loop (command1 ; command2 ; continue ; command3 ; command4) and start the next iteration
 
+echo "### Break Example"
 i=10
 while [ "$i" -gt 0 ]; do
   echo Hello World
@@ -37,6 +38,7 @@ while [ "$i" -gt 0 ]; do
  echo Hello Universe
 done
 
+echo "### Continue Example"
 i=10
 while [ "$i" -gt 0 ]; do
   echo Hello World
